@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.resultImg {
+  width: 300px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name {
+  height: 30px;
+  width: 300px;
+}
+
+.btn {
+  height: 30px;
+}
