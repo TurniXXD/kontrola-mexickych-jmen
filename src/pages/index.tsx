@@ -42,7 +42,7 @@ export default function Home() {
           {resultState === "correct" && foundName && (
             <div>
 
-              <img className={styles.resultImg} src="/correct.jpg" />
+              <Image className={styles.resultImg} src="/correct.jpg" alt="correct" />
               <h2>Správně</h2>
 
               Jméno pro {foundName.original} je {foundName.mexican}
@@ -50,7 +50,7 @@ export default function Home() {
           )}
           {resultState === "wrong" && (
             <div>
-              <img className={styles.resultImg} src="/wrong.png" />
+              <Image className={styles.resultImg} src="/wrong.png" alt="wrong" />
 
               <h2>Špatně :(</h2>
             </div>
