@@ -45,7 +45,7 @@ export default function Home() {
               <img className={styles.resultImg} src="/correct.jpg" alt="correct" />
               <h2>Správně</h2>
 
-              Jméno pro {foundName.original} je {foundName.mexican}
+              Tvoje mexické jméno je {foundName.mexican}
             </div>
           )}
           {resultState === "wrong" && (
